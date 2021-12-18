@@ -4,7 +4,7 @@
 * Phone: +79081327269
 * Email: annettgur@gmail.com
 * GitHub: gur90
-* Discord: Anna Rogozina(@gur90)
+
 
 ## About Me
 I am 31 yars old. I have been working at a rocket engine factory for 9 years as an engineer. But the the plant is falling into disrepair, the work is becoming monotonous and less paid... 
