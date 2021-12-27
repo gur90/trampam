@@ -1,2 +1,2 @@
-https://gur90.github.io/trampam/cvv
-
+# rsschool-cv
+https://gur90.github.io/rsschool-cv/
