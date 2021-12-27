@@ -8,15 +8,17 @@ cv.md
 * Discord: Anna Rogozina(@gur90)
 
 ## About Me
-I am 31 yars old. I have been working at a rocket engine factory for 9 years as an engineer. But the the plant is falling into disrepair, the work is becoming monotonous and less paid... 
-And now i am interested in  frontend development. I believe that learning a new specialty will open up new opportunities for me!
+I am 31 yars old. I have been working at a rocket engine factory for 9 years as an engineer.
+Two months ago I took introductory courses at Yandex on frontend development and now I don't see my future without it.
+I believe that learning a new specialty will open up new opportunities for me!
 
 
-=============================
+*****************************
+
 ## My qualities of character:
 1. Quick learning
-2. Sociability
-3. Responsibility
+2. Responsibility
+3. Ability to work in a team
    
 ****************************
 ## Skills
