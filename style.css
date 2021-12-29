@@ -1,0 +1,163 @@
+<style>
+@font-face {
+    font-family: "Oswald";
+    src: url("assets/fonts/Oswald.ttf");
+    font-weight: 150;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("assets/fonts/Oswald.ttf");
+    font-weight: 300;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+.header {
+    border: 3px solid white;
+    background-color: rgb(223, 185, 185);
+}
+
+.main {
+    border: 3px solid white;
+}
+
+.footer {
+    border: 3px solid white;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    font-family: "Oswald";
+    font-weight: 300;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+      }
+
+      .main-container {
+        display: flex;
+        flex-wrap: wrap
+      }
+
+.container 1{
+     float:right; 
+  }
+
+.section {
+ width: 50%;
+ text-align: left;
+  }
+
+.nav-item {
+      padding:10px;
+      margin: 10px;
+      list-style-type: none;
+  }
+  
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+  line-height: 40px;
+  color: black;
+  font-style: italic;
+  font-size: 15px;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.section-title {
+    text-align: center;
+    letter-spacing: 6px;
+    color:rgb(65, 61, 61);
+}
+
+img {
+    height: 250px;
+    width: auto;
+    position: relative;
+    align: left;
+}
+
+html {
+    min-width: 1246px;
+    scroll-behavior: smooth; 
+    background-color: rgb(204, 190, 190, 0.5);
+  }
+
+.logo {
+    align: left;
+      width: 50px;
+      height: 40px;
+      margin: 10px 40px 10px 30px;
+     
+  }
+
+.footer {
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(223, 185, 185);
+      color: white;
+  }
+
+a {
+      color:white;
+      text-decoration: none;
+      transition: 1s;
+  }
+
+a:hover {
+      color: darkgrey;
+  }
+
+h1 {
+      font-size: 50px;
+      text-decoration: underline;
+  }
+
+.code {
+     align:left;
+     display: flex;
+ }
+
+.f {
+     margin: 10px 30px 20px 10px;
+ }
+
+ ul, 
+ li {
+     list-style-type: square;
+ }
+
+ .none {
+     list-style-type: none;
+ }
+
+</style>
