@@ -69,6 +69,7 @@ body {
 .nav-item {
       padding:10px;
       margin: 10px;
+      list-style-type: none;
   }
   
 .nav-list {
@@ -99,8 +100,8 @@ body {
 }
 
 img {
-    height: 200px;
-    width: 175px;
+    height: 250px;
+    width: auto;
     position: relative;
     align: left;
 }
