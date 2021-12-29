@@ -4,30 +4,36 @@
     src: url("assets/fonts/Oswald.ttf");
     font-weight: 150;
 }
+
 @font-face {
     font-family: "Oswald";
     src: url("assets/fonts/Oswald.ttf");
     font-weight: 300;
 }
+
 * {
     box-sizing: border-box;
 }
+
 @media (max-width: 768px) {
     .section {
       width: 100%;
     }
   }
+
 .header {
     border: 3px solid white;
     background-color: rgb(223, 185, 185);
-   
 }
+
 .main {
     border: 3px solid white;
 }
+
 .footer {
     border: 3px solid white;
 }
+
 body {
     min-height: 100vh;
     margin: 0;
@@ -38,29 +44,40 @@ body {
     font-family: "Oswald";
     font-weight: 300;
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto; 
-    
     display: flex;
     flex-wrap: wrap;
       }
 
-  .container 1{
-     float:right;
+      .main-container {
+        display: flex;
+        flex-wrap: wrap
+      }
+
+.container 1{
+     float:right; 
   }
-  .section {
+
+.section {
  width: 50%;
- 
+ text-align: left;
   }
-  
+
+.nav-item {
+      padding:10px;
+      margin: 10px;
+  }
   
 .nav-list {
-    display: flex;
-  justify-content: flex-end;
+  display: flex;
+  justify-content: center;
   align-items: center;
   list-style: none;
 }
+
 .nav-link {
     padding: 0 20px;
   line-height: 40px;
@@ -69,60 +86,77 @@ body {
   font-size: 15px;
   text-decoration: none;
   transition: .5s;
-
-
 }
+
+.nav-link:hover {
+    color: red;
+}
+
 .section-title {
     text-align: center;
-
+    letter-spacing: 6px;
+    color:rgb(65, 61, 61);
 }
+
 img {
-    height: 210px;
-    width: 170px;
+    height: 200px;
+    width: 175px;
     position: relative;
     align: left;
-    border-radius: 50%;
 }
-
 
 html {
     min-width: 1246px;
     scroll-behavior: smooth; 
     background-color: rgb(204, 190, 190, 0.5);
   }
-  .logo {
+
+.logo {
+    align: left;
       width: 50px;
       height: 40px;
       margin: 10px 40px 10px 30px;
-      align: left;
+     
   }
-  .footer {
+
+.footer {
       display: flex;
       justify-content: space-between;
       background-color: rgb(223, 185, 185);
       color: white;
-
   }
-  a {
+
+a {
       color:white;
       text-decoration: none;
+      transition: 1s;
   }
-  h1 {
+
+a:hover {
+      color: darkgrey;
+  }
+
+h1 {
       font-size: 50px;
       text-decoration: underline;
   }
- .code {
+
+.code {
      align:left;
      display: flex;
  }
- div {
-     
- }
- .f {
+
+.f {
      margin: 10px 30px 20px 10px;
  }
- ul, li {
+
+ ul, 
+ li {
      list-style-type: square;
  }
- 
+
+ .none {
+     list-style-type: none;
+ }
+
 </style>
